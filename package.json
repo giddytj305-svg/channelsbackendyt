@@ -1,0 +1,17 @@
+{
+  "name": "vercel-tv-api",
+  "version": "1.0.0",
+  "description": "Serverless TV channel API for YouTube live streams",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
